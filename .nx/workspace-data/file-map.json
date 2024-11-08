@@ -1,0 +1,167 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.0.11",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "8037249353422744134"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "6555249716513347378"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11761272470041752234"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17406702432687230417"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10093397977228577162"
+      },
+      {
+        "file": "README.md",
+        "hash": "9624116330011528210"
+      },
+      {
+        "file": "karma.conf.js",
+        "hash": "9656364725710720620"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11570370989554561098"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "11620252804242345948"
+      },
+      {
+        "file": "package.json",
+        "hash": "2103001101478164300"
+      },
+      {
+        "file": "public/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "server.ts",
+        "hash": "11690129240233445337"
+      },
+      {
+        "file": "tools/generators/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "9896255020916239563"
+      }
+    ],
+    "projectFileMap": {
+      "cafe-chee-front": [
+        {
+          "file": "apps/cafe-chee-front/project.json",
+          "hash": "13014129558180026793"
+        },
+        {
+          "file": "apps/cafe-chee-front/src/app/app.component.html",
+          "hash": "12643191573562657700"
+        },
+        {
+          "file": "apps/cafe-chee-front/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/cafe-chee-front/src/app/app.component.spec.ts",
+          "hash": "11330201956476829603",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/cafe-chee-front/src/app/app.component.ts",
+          "hash": "8989261771530659453",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/cafe-chee-front/src/app/app.config.server.ts",
+          "hash": "472700109066692288",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-server"
+          ]
+        },
+        {
+          "file": "apps/cafe-chee-front/src/app/app.config.ts",
+          "hash": "11402911871843120852",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/cafe-chee-front/src/app/app.routes.ts",
+          "hash": "12397496131277534773",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/cafe-chee-front/src/index.html",
+          "hash": "15626792659738825826"
+        },
+        {
+          "file": "apps/cafe-chee-front/src/main.server.ts",
+          "hash": "11653607448136507287",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/cafe-chee-front/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/cafe-chee-front/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/cafe-chee-front/tsconfig.app.json",
+          "hash": "16852321912827633074"
+        },
+        {
+          "file": "apps/cafe-chee-front/tsconfig.spec.json",
+          "hash": "17700927949365452100"
+        }
+      ]
+    }
+  }
+}

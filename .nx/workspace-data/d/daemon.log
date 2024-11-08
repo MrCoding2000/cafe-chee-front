@@ -1,0 +1,37 @@
+[NX Daemon Server] - 2024-11-08T06:01:36.415Z - Started listening on: \\.\pipe\nx\C:\Users\ASUS\AppData\Local\Temp\21d7ab19834077907109\d.sock
+[NX Daemon Server] - 2024-11-08T06:01:36.418Z - [WATCHER]: Subscribed to changes within: D:\cafe-chee-front (native)
+[NX Daemon Server] - 2024-11-08T06:01:36.429Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-08T06:01:36.431Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-08T06:01:36.431Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-08T06:01:36.433Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-08T06:01:36.648Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-08T06:01:36.649Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-08T06:01:36.649Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-08T06:01:36.656Z - Time taken for 'loadNxPlugins' 214.35989999999998ms
+[NX Daemon Server] - 2024-11-08T06:01:36.697Z - Time taken for 'build-project-configs' 22.40119999999996ms
+[NX Daemon Server] - 2024-11-08T06:01:36.731Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-08T06:01:36.731Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-11-08T06:01:36.732Z - Time taken for 'total for creating and serializing project graph' 298.7527ms
+[NX Daemon Server] - 2024-11-08T06:01:36.733Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-11-08T06:01:36.734Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 298. Response time: 3.
+[NX Daemon Server] - 2024-11-08T06:01:36.739Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-08T06:01:36.739Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-11-08T06:01:36.740Z - Time taken for 'total for creating and serializing project graph' 0.28940000000000055ms
+[NX Daemon Server] - 2024-11-08T06:01:36.740Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-11-08T06:01:36.740Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-11-08T06:01:36.743Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-11-08T06:01:36.744Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-11-08T06:01:36.744Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-11-08T06:01:36.745Z - Time taken for 'total for creating and serializing project graph' 0.2581000000000131ms
+[NX Daemon Server] - 2024-11-08T06:01:36.745Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-11-08T06:01:36.746Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-11-08T06:02:06.556Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-11-08T06:02:06.557Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-08T06:23:38.669Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-08T06:35:44.254Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-08T06:35:44.258Z - [WATCHER]: Stopping the watcher for D:\cafe-chee-front (sources)
+[NX Daemon Server] - 2024-11-08T06:35:44.258Z - [WATCHER]: Stopping the watcher for D:\cafe-chee-front (outputs)
+[NX Daemon Server] - 2024-11-08T06:35:44.259Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+
+> NX runtime error err=cannot send event from fs watcher: sending into a closed channel
+
